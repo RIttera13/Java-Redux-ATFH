@@ -1,0 +1,25 @@
+package com.aritter.atfh.web;
+
+import com.aritter.atfh.domain.Contractor;
+import com.aritter.atfh.service.ContractorService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+@RequestMapping("/api/contractors")
+@CrossOrigin
+public class ContractorController {
+	
+	@Autowired
+	private ContractorService contractorService;
+	
+	@PostMapping("")
+	public ResponseEntity<?> addContractorToContractors(@RequestBody Contractor contractor){
+		
+		Contractor newContractor = contractorService.saveOrUpdateContractor(contractor);
+		
+		return new ResponseEntity<Contractor>(newContractor, HttpStatus.CREATED);
+	}
+
+}

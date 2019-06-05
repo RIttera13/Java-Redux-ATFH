@@ -1,0 +1,12 @@
+package com.aritter.atfh.service;
+
+import com.aritter.atfh.repository.ContractorRrepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class ContractorService {
+	
+	@Autowired
+	private ContractorRepository contractorRepository;
+}

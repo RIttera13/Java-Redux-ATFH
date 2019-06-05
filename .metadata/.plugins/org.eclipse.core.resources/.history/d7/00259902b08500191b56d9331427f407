@@ -1,0 +1,5 @@
+package com.aritter.atfh.repository;
+
+public interface ContractorRrepository {
+
+}

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;java-atfh/src/main/java/domain&apos;" deleteContents="false" description="Delete resource &apos;java-atfh/src/main/java/domain&apos;" element1="/java-atfh/src/main/java/domain" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1559526784374"/>&#x0A;<refactoring comment="Delete resource &apos;java-atfh/src/main/java/domain&apos;" deleteContents="false" description="Delete resource &apos;java-atfh/src/main/java/domain&apos;" element1="/java-atfh/src/main/java/domain" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1559527743990"/>
+</session>
